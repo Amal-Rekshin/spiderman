@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap');
+
+html{
+    background-image: url("city.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.nav-bar{
+    background-color: rgba(255, 255, 255, 0.275);
+    height: 50px;
+    margin-left: 70px;
+    margin-top: 30px;
+    margin-right: 70px;
+    border-radius: 30px;
+    padding-bottom: 7px;
+    display: block;
+}
+
+#logo{
+    font-family:    serif;
+    display: inline-block;
+    color: white;
+    padding-left: 35px;
+}
+
+.contactfor{
+    padding-left: 400px;
+    display: inline-block;
+}
+
+.conta{
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 10px;
+    color: white;
+    padding: 10px;
+    border-radius: 35px;
+}
+
+.conta a{
+    color: #ffffffd0;
+    text-decoration: none;
+}
+
+.conta a:hover{
+    color: #fff;
+    transition: 500ms;
+
+}
+
+.conta:hover{
+    transition: 500ms;
+    background-color: #ffffff52;
+    border-radius: 35px;
+}
+
+.profil{
+    display:inline-block;
+    
+    
+}
+
+#navbarDropdownMenuLink{
+    display: inline-block;
+}
+
+#menubar{
+    display: inline-block;
+    border-left: #fff;
+    border-width: 2px;
+    border-style:initial;
+}
+
+.rightt{
+    display:block;
+    float: right;
+}
+
+.rightt button{
+    background-color: rgb(172, 0, 0);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin-top: 8px;
+    margin-right: 10px;
+    border-radius: 50px;
+}
+
+.container p{
+    font-family: "Alfa Slab One", serif;
+    font-size: 150px;
+    margin-top: 200px;
+    color: white;
+    letter-spacing: 3px;
+    text-align: center;
+    
+}
+.container1 p{
+    font-family: "Alfa Slab One", serif;
+    font-size: 150px;
+    color: rgba(255, 255, 255, 0.175);
+    text-align: center;
+    color: black;
+    letter-spacing: 3px;
+    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+}
+
+.container1{
+    margin-top: -508px;
+}
+
+.SpiderImg{
+    margin-left: 500px;
+    margin-top: -500px;
+}
+
+.SpiderImg img:hover{
+    scale: 1.1;
+    transition: .5s;
+}
+
+.bottom{
+    display: inline;
+}
+
+.BottomLeft{
+    margin-top: 40px;
+    display: inline-block;
+    margin-left: 75px;
+}
+
+.BottomLeft button{
+    background-color: transparent;
+    border-radius: 30px;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    padding: 10px 15px 10px 15px;
+    color: white;
+    letter-spacing: 1px;
+}
+
+.BottomLeft button:hover{
+    background-color: rgb(172, 0, 0);
+    transition: .3s;
+}
+
+.BottomLeft button:active{
+    margin-top: 2px;
+    margin-left: 2px;
+    margin-bottom: -2px;
+}
+
+.BottomLeft p{
+    color: white;
+}
+
+.BottomRight{
+    float: right;
+}
+
+.BottomRight button{
+    background-color: rgb(172, 0, 0);
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px 10px 15px;
+    margin-top: 80px;
+    margin-right: 80px;
+    border-radius: 50px;
+}
